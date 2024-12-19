@@ -17,16 +17,19 @@ Draws bounding boxes around detected faces.
 Displays the predicted age and gender on the video feed.
 
 <h1>How It Works</h1>
-1. Face Detection
+<h2>1. Face Detection</h2>
 The script uses OpenCV's Deep Neural Network (DNN) module for face detection.
 A pre-trained model (opencv_face_detector_uint8.pb) detects faces in the video feed.
-2. Age and Gender Prediction
+<br>
+<h2>2. Age and Gender Prediction</h2>
 Gender Detection:
 Uses a pre-trained Caffe model (gender_net.caffemodel) to predict the gender (Male/Female).
 Age Detection:
+<br>
 Uses a pre-trained Caffe model (age_net.caffemodel) to classify age into 8 groups:
 (0-2), (4-6), (8-12), (15-20), (25-32), (38-43), (48-53), (60-100).
 Predictions are made by passing detected face regions to the respective models.
-3. Real-Time Display
+<br>
+<h2>3. Real-Time Display</h2>
 #Bounding boxes are drawn around detected faces.
 #Age and gender predictions are displayed as text annotations on the video feed.
