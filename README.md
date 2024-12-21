@@ -1,6 +1,3 @@
-
-Here’s a detailed description for your GitHub repository README:
-
 <h1>Real-Time Age and Gender Detection</h1>
 This project implements real-time age and gender detection using OpenCV's DNN module and pre-trained deep learning models. It processes video streams from a webcam, detects faces, and predicts the age and gender of individuals using pre-trained models. The results are displayed on the video feed in real-time.
 
